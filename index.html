@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <title>Saara</title>
+    </head>
+    <body>
+        <svg class="header__bg-L">
+            <use xlink:href="./svg/sprite.svg#bg-L"></use>
+        </svg>
+        <svg class="header__bg-R">
+            <use xlink:href="./svg/sprite.svg#bg-R"></use>
+        </svg>
+        <header class="header">
+             <div class="container">
+                 <div class="header__content">
+                    <a href="#!" class="logo">
+                        <img src="./images/logo.png" alt="logo" class="logo__img">
+                    </a>
+                    <nav class="nav">
+                        <a href="#!" class="nav__link">About</a>
+                        <a href="#!" class="nav__link">Blog</a>
+                        <a href="#!" class="nav__link">Contact us</a>
+                    </nav>
+                    <button class="header__btn">GET STARTED</button>
+                    <div class="burger-menu__btn">
+                        <span class="burger-menu__icon">
+                            <span class="burger-menu__line"></span>
+                        </span>
+                    </div>
+                 </div>
+             </div>
+             <div class="menu">
+                <span class="menu__close">
+                    <svg class="menu__close-icon">
+                        <use xlink:href="../svg/sprite.svg#close"></use>
+                    </svg>
+                </span>
+                <a href="#!" class="logo">
+                    <img src="./images/logo.png" alt="logo" class="logo__img">
+                </a>
+                <nav class="nav">
+                    <a href="#!" class="nav__link">About</a>
+                    <a href="#!" class="nav__link">Blog</a>
+                    <a href="#!" class="nav__link">Contact us</a>
+                </nav>
+                <button class="header__btn">GET STARTED</button>
+             </div>
+        </header>
+        <main class="main">
+            <div class="container"> 
+                 <div class="main__content">
+                    <form  class="form">
+                        <h1 class="title"> <span>Get Started </span>  
+                        with EcoReturns</h1>
+                        <input type="text" placeholder="Enter your name* "   class="input " required>
+                        <input type="email" placeholder="Enter your Email* " class="input" required>
+                        <input type="text" placeholder="Company/Store* " class="input" required> 
+                        <input type="text" placeholder="Enter your Phone* " class="input" data-type="phone" required>
+                        <div class="select">
+                            <button class="select__btn" type="button">How did you hear about us?</button>
+                            <svg class="select__icon">
+                                <use xlink:href="./svg/sprite.svg#arrow-down"></use>
+                            </svg>
+                            <ul class="select__list">
+                                <li class="select__item">
+                                    How did you hear about us?
+                                </li>
+                                <li class="select__item">
+                                    How did you hear about you?
+                                </li>
+                                <li class="select__item">
+                                    How did you hear about their?
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="form__btn"  >Request Demo</button>
+                 </form>
+                 <div class="info">
+                     <div class="info__card">
+                         <div class="info__circle">
+                            <img src="./images/folder.png" alt="folder" class="info__img">
+                         </div>
+                         <p class="info__text">
+                            Reduce Returns by 30%
+                         </p>
+                     </div>
+                     <div class="info__card">
+                         <div class="info__circle">
+                            <img src="./images/brain.png" alt="brain" class="info__img">
+                         </div>
+                         <p class="info__text">
+                            Intelligent Incentivization to Retain Customers
+                         </p>
+                     </div>
+                     <div class="info__card">
+                         <div class="info__circle">
+                            <img src="./images/lamniscate.png" alt="lamniscate" class="info__img">
+                         </div>
+                         <p class="info__text">
+                            Process Unlimted Returns
+                         </p>
+                     </div>
+                     <div class="info__card">
+                         <div class="info__circle">
+                            <img src="./images/money-box.png" alt="money-box" class="info__img">
+                         </div>
+                         <p class="info__text">
+                            Save Time with Automated Returns & Exchange
+                         </p>
+                     </div>
+                 </div>
+                 </div>
+            </div>
+             
+        </main> 
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
