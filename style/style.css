@@ -299,6 +299,7 @@ body.hidden {
     line-height: 19.2px;
     color: var(--blue);  
     text-align: left;
+    cursor: pointer;
 }
 .select__item:last-child {
     border-bottom: none;

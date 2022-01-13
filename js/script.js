@@ -28,7 +28,7 @@ class Select  {
                 this.openList(btn, items)
             })
             btn.addEventListener('focusout', () =>  {
-                btn.classList.remove('active')
+                setTimeout(() => {btn.classList.remove('active')}, 100)
             })
             icon.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -46,7 +46,7 @@ class Select  {
         elem.forEach(item => {
             item.addEventListener('click', () => {
                 elem.forEach(el => el.classList.remove('selected'));
-                item.classList.add('selected');
+                item.classList.add('selected'); 
                 btn.textContent = item.textContent;
                 btn.classList.remove('active');
             })
